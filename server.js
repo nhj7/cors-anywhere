@@ -46,5 +46,5 @@ cors_proxy.createServer({
 var http = require("http");
 setInterval(function() {
     console.log("every 10 minutes (600000)");
-    http.get("https://cors-nhj12311.herokuapp.com");
+    http.get("http://cors-nhj12311.herokuapp.com");
 }, 600000); // every 10 minutes (600000)
