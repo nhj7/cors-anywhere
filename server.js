@@ -42,3 +42,9 @@ cors_proxy.createServer({
 }).listen(port, host, function() {
   console.log('Running CORS Anywhere on ' + host + ':' + port);
 });
+
+var http = require("http");
+setInterval(function() {
+    console.log("every 10 minutes (600000)");
+    http.get("https://cors-nhj12311.herokuapp.com");
+}, 600000); // every 10 minutes (600000)
