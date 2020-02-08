@@ -30,6 +30,7 @@
   "dependencies": {
     "http": "0.0.0",
     "http-proxy": "^1.11.1",
+    "node-cron": "^2.0.3",
     "proxy-from-env": "0.0.1"
   },
   "devDependencies": {
